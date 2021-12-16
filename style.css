@@ -66,11 +66,119 @@
 
 img {
   height: 200px;
+
 }
 
 .clear {
   clear: both;
 }
 
+.left{
+  display: block;
+  width: 100%;
+}
 
 /*-------------INIZIO RESPONSIVE----------------------------------------*/
+
+
+@media screen and (max-width: 420px) {
+    /*Inizio Lezioni*/
+    #lezioni .row{
+      margin-top: 0px
+    }
+
+    #lezioni .row .right img{
+      width: 100%;
+      height: 100%;
+      margin-top: 20px;
+    }
+
+    #lezioni .row .left img{
+      width: 35%;
+      height: 35%;
+    }
+
+    #lezioni .row .right,
+    #lezioni .row .left{
+      width: 100%;
+    }
+
+    #lezioni .row .right img{
+        width: 60%;
+        height: 60%;
+    }
+    
+    #lezioni .row>.left,
+    #lezioni .row>.right{
+      float: none;
+      text-align: center;
+      display: inline-block;
+    }
+    /*Fine Lezioni*/
+
+    /*Inizio Steps*/
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right{
+      float: none;
+      text-align: center;
+      display: inline-block;
+      width: 50%;
+    }
+
+    #steps .row .right,
+    #steps .row .central,
+    #steps .row .left{
+      width: 100%;
+    }
+
+
+    #steps .row .right img,
+    #steps .row .central img,
+    #steps .row .left img{
+      width: 35%;
+      height: 35%;
+    }
+
+     /*Fine Steps*/
+
+    /*Inizio Why*/
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+      width: 100%;
+      margin-top: 0px;
+    }
+
+    .first img, .second img, .third img{
+      width: 100px;
+      height: 100px;
+    }
+     /*Fine Why*/
+
+    /*Inizio general*/
+    #lezioni, #why{
+      background-color: rgb(242, 242, 205);
+      width: 100%;
+    }
+
+    .row{
+      width: 100%; 
+      text-align: center;
+      margin-top: 0px;
+    }
+
+    h3{
+      margin: 0px 10px;
+    }
+
+    h1{
+      margin-top: 0px;
+      padding-top: 10px;
+    }
+
+    /*Fine general*/
+  
+    
+  }
+
