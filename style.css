@@ -140,6 +140,15 @@ img {
       height: 35%;
     }
 
+    #steps .row .right img,
+    #steps .row .central img{
+      margin-top: 20px;
+    }
+
+    #steps .row .right{
+      padding-bottom: 10px;
+    }
+
      /*Fine Steps*/
 
     /*Inizio Why*/
@@ -151,13 +160,18 @@ img {
     }
 
     .first img, .second img, .third img{
-      width: 100px;
-      height: 100px;
+      width: 20%;
+      height: 20%;
+    }
+
+    .second img, .third img{
+      margin-top: 20px;
     }
      /*Fine Why*/
 
     /*Inizio general*/
     #lezioni, #why{
+      padding-bottom: 10px;
       background-color: rgb(242, 242, 205);
       width: 100%;
     }
@@ -177,6 +191,11 @@ img {
       padding-top: 10px;
     }
 
+    hr{
+      width: 90%;
+      color: black;
+      border: black solid 1px;
+    }
     /*Fine general*/
   
     
